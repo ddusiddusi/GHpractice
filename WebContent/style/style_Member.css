@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+form#regFrm{
+	width: 100%;
+	justify-content: center;
+	/*border: 1px solid #000;*/
+}
+div#contents>table#joinTbl{
+	/*border: 1px solid #000;*/
+	font-size: 13px;
+	margin: 0 auto;
+	
+}
+#contents>table#joinTbl caption{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+div#contents>table#joinTbl td:nth-child(1) {
+	/*border: 1px solid #f80;*/
+	padding : 15px;
+}
+div#contents>table#joinTbl td:nth-child(2) {
+	/*border: 1px solid #8f0;*/
+	padding-left: 10px;
+	width: 430px;
+}
+div#contents>table#joinTbl td:nth-child(3) {
+	/*border: 1px solid #f80;*/
+	padding : 15px;
+	color:#aaa;
+}
+div#contents>table#joinTbl td.req::after{
+	content: " *";
+	color:#f80;
+	
+}
+div#contents>table#joinTbl span#pwChk{
+	color: #f80;
+	margin-left: 10px;
+}
+div#emailAuthArea{
+	margin-top: 10px;
+	display: none;
+}
+
+
+
+
+
+
+
+
+/************************input**********************/
+#contents>table#joinTbl input{
+	font-size: 13px;
+	padding: 4px;
+}
+#contents>table#joinTbl input[type=checkbox]{
+	cursor: pointer;
+}
+#contents>table#joinTbl input[type=radio]{
+	cursor: pointer;
+}
+#contents>table#joinTbl input.genR{
+	transform:translateY(3px);
+}
+#contents>table#joinTbl input.chb{
+	transform:translateY(3px);
+}
+#contents>table#joinTbl input#pwView{
+	transform:translateY(3px);
+}
+
+#contents>table#joinTbl input#uZipcode{
+	outline: none;
+}
+/************************input**********************/
+
+
+
+/************************button**********************/
+#contents>table#joinTbl button{
+	font-size: 13px;
+	padding: 4px;
+	color: #fff;
+	background-color: #003366;
+	border: none;
+	border: 1px solid #222;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 5px 6px;
+}
+#contents>table#joinTbl button:hover{
+	color: #eee;
+};
+#contents>table#joinTbl td#btnArea>button{
+	font-size: 16px;
+}
+#contents>table#joinTbl td#btnArea{
+	text-align: center;
+}
+/************************button**********************/
+
+
+
+
+/************************select**********************/
+#contents>table#joinTbl select{
+	font-size: 12px;
+	padding: 5px 6px;
+	outline: none;
+}
+#contents>table#joinTbl select#emailDomain{
+	
+}
+
+
+/************************select**********************/
+
+
+
+
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#contents>h2 {
+	margin-top: 4px;
+}
+
+table#notice{
+	width: 800px;
+	border: 1px solid #003366;
+	margin-top : 20px;
+	border-collapse : collapse;
+}
+
+
+table#notice>thead>tr>th {
+	background-color: #8099B3;
+	color: white;
+	height: 50px;
+}
+
+table#notice>thead>tr>td {
+	text-align: center;
+}

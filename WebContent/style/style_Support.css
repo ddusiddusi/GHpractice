@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+
+/*////////////////////////////////////////////*/
+/*support.jsp 헤더 영역 ( div#supContHead ) 시작 */
+/*/////////////////////////////////////////////*/
+
+div#wrap>main#main>div#contents {
+/*border: 1px solid #000;*/
+}
+#wrap>#main>#contents>div#supContHead {
+	/*border: 1px solid #000;*/
+	text-align: center;
+	/*justify-content: center;*/
+	width: 100%;
+}
+#wrap #supContHead>#supTbl {
+	width: 100%;
+	margin-top: 20px;
+}
+#wrap #supContHead>#supTbl td#supHeadNotice {
+	font-size: 18px;
+	font-weight: bold;
+}
+#supTbl #supHeadNotice #supHeadLogo {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 10px 20px;
+}
+#supTbl td#supSearchTd>input#supSearch {
+	width: 400px;
+	padding: 20px;
+	margin: 70px 0 12px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	border-radius: 20px;
+}
+#supTbl #supSearchTd>span.spnSearchBtn {
+	padding: 20px;
+}
+#supTbl #supSearchTd>.spnSearchBtn button {
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	background-color: #eee;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#supTbl #supSearchTd>#supSearch::placeholder {
+	text-align: center;
+	color: #aaa;
+}
+#supTbl td#supKeyWordTd>button {
+	font-weight: bold;
+	font-size: 18px;
+	justify-content: center;
+	text-align: center;
+	margin-right: 44px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 25px;
+}
+#supTbl td#supKeyWordTd>button:hover {
+	background-color: #eee;
+}
+
+/*////////////////////////////////////////////*/
+/*support.jsp 헤더 영역 ( div#supContHead ) 끝 */
+/*/////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////*/
+/*support.jsp 대분류 영역 ( div#threeCol ) 시작 */
+/*/////////////////////////////////////////////*/
+
+div#wrap>main#main>div#contents>div#threeCol {
+/*	border: 1px solid #000;*/
+	justify-content: center;
+	background-color: #f7f7f7;
+}
+#wrap>#main>#contents>#threeCol>div.threeColItem {
+	width: 200px;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	/*border: 1px solid #000;*/
+	text-align: center;
+}
+#wrap>#main>#contents>#threeCol>div.threeColCheck{
+	background-color: #808080;
+}
+
+/*////////////////////////////////////////////*/
+/*support.jsp 대분류 영역 ( div#threeCol ) 끝 */
+/*/////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////*/
+/*support.jsp 테이블 영역 ( div#faqTopFive ) 시작 */
+/*/////////////////////////////////////////////*/
+
+div#wrap>main#main>div#contents>div#faqTopFive {
+	/*border: 1px solid #000;*/
+}
+#wrap>#main>#contents>#faqTopFive>table {
+/*	border: 1px solid #000;*/
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#wrap>#main>#contents>#faqTopFive>table tr.prnTr:hover {
+	background-color: rgba(0, 136, 255, 0.1);
+	cursor: pointer;
+}
+#wrap>#main>#contents>#faqTopFive td {
+	padding: 20px 0;
+	text-align: left;
+	border-bottom: 1px solid#aaa;
+}
+#wrap>#main>#contents>#faqTopFive td:nth-child(1) {
+	text-align: left;
+/*	margin-left: -50px;*/
+	font-weight: bold;
+	padding-left: 400px;
+}
+#wrap>#main>#contents>#faqTopFive span.FAQSubject {
+	font-weight: bold;
+	padding-left: 250px;
+}
+#wrap>#main>#contents>#faqTopFive td>a {
+	margin-left: 20px;
+	
+}
+#wrap>#main>#contents>#faqTopFive span.tdNum {
+	margin-left: 70px;
+}
+#wrap>#main>#contents>#faqTopFive span.topTen {
+	margin-left: 30px;
+	text-align: center;
+	justify-content: center;
+}
+#wrap>#main>#contents>#faqTopFive span.topTenEft {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+
+/*////////////////////////////////////////////*/
+/*support.jsp 테이블 영역 ( div#faqTopFive ) 끝 */
+/*/////////////////////////////////////////////*/
+
+/*
+div#supNavi {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0 20px;
+	*//*justify-content: center;*/
+/*}*/
+
+/*////////////////////////////////////////////*/
+/*support.jsp 콜넘버 영역 ( div#footCallNumber ) 시작 */
+/*/////////////////////////////////////////////*/
+
+div#wrap>main#main>div#contents>div#footCallNumber {
+	/*border: 1px solid #000;*/
+	justify-content: center;	
+	background-color: rgb(178, 235, 249, 0.3);
+	/*margin-top: 50px;*/
+}
+div#wrap>main#main>div#contents>div#company img {
+	margin-left: 200px;
+}
+#wrap>#main>#contents>#footCallNumber>div.footCall {
+	padding: 0px;
+	margin: 5px 20px 5px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: top;
+}
+#wrap>#main>#contents>#footCallNumber>.footCall>span img {
+	border-radius: 50px;	
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+
+
+
+/*////////////////////////////////////////////*/
+/*support.jsp 콜넘버 영역 ( div#footCallNumber ) 끝 */
+/*/////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////*/
+/*FAQDetail.jsp 테이블 영역 ( div#contents ) 시작 */
+/*/////////////////////////////////////////////*/
+
+
+div#contents table.FAQDetailTbl {
+	text-align: center;
+	width: 100%;
+}
+
+#contents .FAQDetailTbl h1.subjectEft {
+	color: #024646;
+	padding: 20px 0 30px;
+}
+#contents  td.supportAns {
+padding-top: 30px;
+font-weight: 666;
+padding-bottom: 150px;
+}
+
+/*////////////////////////////////////////////*/
+/*FAQDetail.jsp 테이블 영역 ( div#contents ) 끝 */
+/*/////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
